@@ -1,0 +1,6 @@
+@ShareTheLoad.Api.LoadBalancer_HostAddress = http://localhost:5229
+
+GET {{ShareTheLoad.Api.LoadBalancer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

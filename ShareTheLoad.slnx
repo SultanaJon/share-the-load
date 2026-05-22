@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/" />
+  <Folder Name="/src/APIs/">
+    <Project Path="src/APIs/ShareTheLoad.Api.LoadBalancer/ShareTheLoad.Api.LoadBalancer.csproj" />
+    <Project Path="src/APIs/ShareTheLoad.Api.Product/ShareTheLoad.Api.Product.csproj" />
+  </Folder>
+  <Folder Name="/src/Clients/">
+    <Project Path="src/Clients/ShareTheLoad.Client.Monitor/ShareTheLoad.Client.Monitor.csproj" />
+  </Folder>
+</Solution>
