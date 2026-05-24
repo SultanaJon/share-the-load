@@ -1,6 +1,6 @@
 namespace ShareTheLoad.Domain.Entities;
 
-public class Product : BaseEntity
+public class Product : Base
 {
     public required string Name { get; set; }
     public required string Description { get; set; }

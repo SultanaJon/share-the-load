@@ -1,13 +1,13 @@
 namespace ShareTheLoad.Domain.Entities;
 
-public interface IBaseEntity
+public interface IBase
 {
     public Guid Id { get; set; }
     public DateTime CreatedAt { get; set; }
     public DateTime UpdatedAt { get; set; }
 }
 
-public class BaseEntity : IBaseEntity
+public class Base : IBase
 {
     public Guid Id { get; set; }
     public DateTime CreatedAt { get; set; } = DateTime.UtcNow;
