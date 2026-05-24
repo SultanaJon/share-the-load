@@ -1,10 +1,10 @@
 <Solution>
-  <Folder Name="/src/" />
-  <Folder Name="/src/API/">
-    <Project Path="src/API/ShareTheLoad.Api.LoadBalancer/ShareTheLoad.Api.LoadBalancer.csproj" />
-    <Project Path="src/API/ShareTheLoad.Api.Product/ShareTheLoad.Api.Product.csproj" />
-  </Folder>
-  <Folder Name="/src/Clients/">
-    <Project Path="src/Clients/ShareTheLoad.Client.Monitor/ShareTheLoad.Client.Monitor.csproj" />
+  <Folder Name="/src/">
+    <Project Path="src/ShareTheLoad.Api.LoadBalancer/ShareTheLoad.Api.LoadBalancer.csproj" />
+    <Project Path="src/ShareTheLoad.Api.Product/ShareTheLoad.Api.Product.csproj" />
+    <Project Path="src/ShareTheLoad.Application/ShareTheLoad.Application.csproj" />
+    <Project Path="src/ShareTheLoad.Infrastructure/ShareTheLoad.Infrastructure.csproj" />
+    <Project Path="src/ShareTheLoad.Domain/ShareTheLoad.Domain.csproj" />
+    <Project Path="src/ShareTheLoad.Client.Monitor/ShareTheLoad.Client.Monitor.csproj" />
   </Folder>
 </Solution>
