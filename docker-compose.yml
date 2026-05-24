@@ -1,10 +1,10 @@
 services:
-  product-db:
+  store-db:
     image: postgres
     restart: always
     shm_size: 128mb
     environment:
-      POSTGRES_DB: product
+      POSTGRES_DB: store
       POSTGRES_USER: admin
       POSTGRES_PASSWORD: password
     ports:
